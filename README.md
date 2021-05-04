@@ -11,7 +11,7 @@ When Starship Stuff V1.0 is released, this mod will be founded on KSP forums and
 
 ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SEE MY ROADMAP DOWN.
 
-__**ChangeLog:**__
+**ChangeLog:**
 
 **BETA v0.1 (Released 1/05/21)**
 -	Starship Orbital Launch Pad
@@ -19,7 +19,7 @@ __**ChangeLog:**__
 -	Starship Orbital Launch Pad Revamp
 
 
-__**BETA Roadmap**__
+**BETA Roadmap**
 
 **Beta v0.2:**
 -	Starship Test Stand (Modeling)
@@ -31,7 +31,7 @@ __**BETA Roadmap**__
 -	Starship Tower (Planned)
 
 
-__**Roadmap**__
+**Roadmap**
 
 **Starship Launch Expansion V1.0:**
 - Starship Orbital Launch Pad (Revamping)

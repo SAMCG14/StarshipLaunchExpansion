@@ -1,7 +1,7 @@
 # Starship Launch Expansion
 Thanks for trying out this mod! This is a public beta of Starship Launch Expansion Mod so be aware that the mod may have bugs when you install it.
 
-KSP | Starship Launch Expansion | Mod Version: KSP 1.11.2 or previous. 
+**KSP | Starship Launch Expansion** | Mod Version: KSP 1.11.2 or previous. 
 
 Note: The mod is made for KSP 1.11.2 mainly, so it's not sure if it will work perfectly on older versions, but it should.
 

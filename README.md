@@ -11,7 +11,7 @@ When Starship Stuff V1.0 is released, this mod will be founded on KSP forums and
 
 ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SEE MY ROADMAP DOWN.
 
-ChangeLog:
+*ChangeLog:*
 
 BETA v0.1 (Released 1/05/21)
 -	Starship Orbital Launch Pad

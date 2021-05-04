@@ -11,33 +11,33 @@ When Starship Stuff V1.0 is released, this mod will be founded on KSP forums and
 
 ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SEE MY ROADMAP DOWN.
 
-*ChangeLog:*
+__**ChangeLog:**__
 
-BETA v0.1 (Released 1/05/21)
+**BETA v0.1 (Released 1/05/21)**
 -	Starship Orbital Launch Pad
-Beta v0.11 (Released 1/05/21)
+**Beta v0.11 (Released 1/05/21)**
 -	Starship Orbital Launch Pad Revamp
 
 
-BETA Roadmap
+__**BETA Roadmap**__
 
-Beta v0.2:
+**Beta v0.2:**
 -	Starship Test Stand (Modeling)
 - TweakScale Support (Complete)
 -	Spanish Support (Testing)
 - SLE In-game Category (Testing)
 
-Beta v0.3
+**Beta v0.3**
 -	Starship Tower (Planned)
 
 
-Roadmap
+__**Roadmap**__
 
-Starship Launch Expansion V1.0:
+**Starship Launch Expansion V1.0:**
 - Starship Orbital Launch Pad (Revamping)
 -	Starship Test Stand (Modeling)
 -	Starship Umbilical Tower (Planned)
 
-Starship Launch Expansion V2.0
+**Starship Launch Expansion V2.0**
 -	MoonShip Legs (Planned)
 -	Tower Catch Arms (Planned)

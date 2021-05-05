@@ -24,7 +24,7 @@ ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SE
 **Beta v0.2:**
 -	Starship Test Stand (Modeling)
 - TweakScale Support (Complete)
--	Spanish Support (Testing)
+-	Spanish Support (Complete)
 - SLE In-game Category (Complete)
 
 **Beta v0.3**

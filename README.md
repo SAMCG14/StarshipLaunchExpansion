@@ -22,7 +22,7 @@ ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SE
 **BETA Roadmap**
 
 **Beta v0.2:**
--	Starship Test Stand (Modeling)
+-	Starship Test Stand (Texturing)
 - TweakScale Support (Complete)
 -	Spanish Support (Complete)
 - SLE In-game Category (Complete)
@@ -35,7 +35,7 @@ ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SE
 
 **Starship Launch Expansion V1.0:**
 - Starship Orbital Launch Pad (Revamping)
--	Starship Test Stand (Modeling)
+-	Starship Test Stand (Texturing)
 -	Starship Umbilical Tower (Planned)
 
 **Starship Launch Expansion V2.0**

@@ -5,7 +5,7 @@ Thanks for trying out this mod! This is a public beta of Starship Launch Expansi
 
 Note: The mod is made for KSP 1.11.2 mainly, so it's not sure if it will work perfectly on older versions, but it should.
 
-I'm working on this mod mainly by my own, so please be patient with updates, any suggestions or bug reports you can text me through discord: @SAMCG14#6374 or join my discord server: https://discord.gg/AQBSvm9mw9
+I'm working on this mod mainly by my own, so please be patient with updates, any suggestions or bug reports you can text me through discord: @SAMCG14#6374 or join my discord server: https://discord.gg/72anEe59Uy
 
 When Starship Stuff V1.0 is released, this mod will be founded on KSP forums and eventually in CKAN.
 

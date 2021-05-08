@@ -22,7 +22,7 @@ Revamps will be frequent as they are developed in real life, especially with the
 **BETA Roadmap**
 
 **Beta v0.2:**
--	Starship Test Stand (Texturing)
+-	Starship Test Stand (In-game Testing)
 - TweakScale Support (Complete)
 -	Spanish Support (Complete)
 - SLE In-game Category (Complete)
@@ -35,7 +35,7 @@ Revamps will be frequent as they are developed in real life, especially with the
 
 **Starship Launch Expansion V1.0:**
 - Starship Orbital Launch Pad (Revamping)
--	Starship Test Stand (Texturing)
+-	Starship Test Stand (In-game Testing)
 -	Starship Umbilical Tower (Planned)
 
 **Starship Launch Expansion V2.0**

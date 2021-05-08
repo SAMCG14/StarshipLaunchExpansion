@@ -9,7 +9,7 @@ I'm working on this mod mainly by my own, so please be patient with updates, any
 
 When Starship Stuff V1.0 is released, this mod will be founded on KSP forums and eventually in CKAN.
 
-ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SEE MY ROADMAP DOWN.
+Revamps will be frequent as they are developed in real life, especially with the Orbital Pad, the Umbilical Tower, and the Catch Arms.
 
 **ChangeLog:**
 
@@ -29,7 +29,7 @@ ONLY STARSHIP ORBITAL PAD IS AVAILABLE, OTHER PARTS WILL BE ADDED EVENTUALLY, SE
 
 **Beta v0.3**
 -	Starship Tower (Planned)
-
+- Orbital Launch Pad Revamp (Planned)
 
 **Roadmap**
 

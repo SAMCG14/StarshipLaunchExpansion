@@ -26,6 +26,11 @@ Revamps will be frequent as they are developed in real life, especially with the
 - TweakScale Support (Complete)
 -	Spanish Support (Complete)
 - SLE In-game Category (Complete)
+- RO Patch (Testing)
+- Real Fuels Patch (Testing)
+
+**Beta v0.21:**
+- Orbital Launch Pad Revamp (Planned)
 
 **Beta v0.3**
 -	Starship Tower (Planned)

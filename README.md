@@ -10,3 +10,9 @@ Note: The mod is made for KSP 1.11.2 mainly, so it's not sure if it will work pe
 I'm working on this mod mainly by my own, so please be patient with updates, any suggestions or bug reports you can text me through discord: @SAMCG14#6374 or join my discord server: https://discord.gg/AQBSvm9mw9
 
 When Starship Launch Expansion v1.0 is released, this mod will be founded on KSP forums and eventually in CKAN.
+
+**DEPENDENCIES:**
+- Module Manager
+
+**RECOMMENDED MODS:**
+- Tundra Exploration

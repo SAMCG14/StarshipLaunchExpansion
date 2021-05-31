@@ -19,13 +19,15 @@ Beta v0.2 (Released 30/05/21)
 Starship Launch Expansion Roadmap
 ================================================================
 BETA Roadmap
+
 Beta v0.21
 - Docking port for Test Stand
 - Bugs Fixed
 
 Beta v0.3
-- Starship Tower (Planned)
+- Starship Integration Tower (Planned)
 - Orbital Launch Pad Revamp
+- Orbital Launch Clamps (Planned)
 
 SLE Roadmap
 Starship Launch Expansion V1.0:

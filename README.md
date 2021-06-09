@@ -1,3 +1,8 @@
+# DEPENDENCIES:
+Mods required for Starship Launch Expansion:
+- Module Manager
+- B9PartSwitch
+
 # StarshipLaunchExpansion_KSP
 Thanks for trying out this mod! This mod consists mainly in real-life SpaceX pads for Starship as well as extra Starship stuff, they are not ment to be 1:1. 
 This is a public beta of Starship Launch Expansion Mod so be aware that the mod may have bugs when you install it.
@@ -11,8 +16,4 @@ I'm working on this mod mainly by my own, so please be patient with updates, any
 
 When Starship Launch Expansion v1.0 is released, this mod will be founded on KSP forums and eventually in CKAN.
 
-**DEPENDENCIES:**
-- Module Manager
 
-**RECOMMENDED MODS:**
-- Tundra Exploration

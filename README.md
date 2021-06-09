@@ -16,4 +16,8 @@ I'm working on this mod mainly by my own, so please be patient with updates, any
 
 When Starship Launch Expansion v1.0 is released, this mod will be founded on KSP forums and eventually in CKAN.
 
-
+# RECOMMENDED MODS:
+Mods recommended to install with Starship Launch Expansion:
+- Tundra Exploration for Starship and Super Heavy
+- Modular Launch Pads for more real life Launch Pads
+- Hangar Extender for a bigger VAB for bigger crafts.

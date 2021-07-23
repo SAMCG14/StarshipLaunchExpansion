@@ -10,8 +10,6 @@ This is a public beta of Starship Launch Expansion Mod so be aware that the mod 
 
 I'm working on this mod mainly by my own, so please be patient with updates, any suggestions or bug reports you can text me through discord: @SAMCG14#6374 or join my discord server: https://discord.gg/AQBSvm9mw9
 
-When Starship Launch Expansion Beta v0.3 is released, this mod will be founded on KSP forums and eventually on CKAN.
-
 # RECOMMENDED MODS:
 Recommended mods to install with Starship Launch Expansion:
 - Starship Expansion Project for Updated Starship and Super Heavy (Compatible with SLE)

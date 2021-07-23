@@ -1,43 +1,47 @@
-SLE Changelog
+Starship Launch Expansion Changelog
 ================================================================
-
-Beta v0.1:(Released 1/05/21)
-- Starship Orbital Launch Pad
-
-Beta v0.11 (Released 1/05/21)
-- Starship Orbital Launch Pad Revamp
+Beta v0.3
+- Added Launch Tower Base
+- Added Launch Tower Segments
+- Added Launch Tower Rooftop
+- Added Starship Display Stand Switchable from Test Stand
+- Added KK Config that includes parts as statics (by Sofie)
+- Added Flags folder that includes SLE Logo
+- Launch Pad is Switchable between Table and Mount
+- Optimized Files Size (saved some MB)
+- Fixed Test Stand and Launch Pad not fueling methane
+- Fixed LCH4/LOX fueling ratio
+- Test Stand nodes relocated for SEP's Starship
+- Changed OLP nodes for Launch Tower
+- RO-Patch updated for Launch Tower and improved rescale factor
 
 Beta v0.2 (Released 30/05/21)
-- Starship Test Stand 
-- TweakScale Support 
-- Spanish Support 
-- SLE In-game Category 
-- RO-Patch
-- Textures in .dds instead of .png
+- Added Starship Test Stand
+- Added TweakScale Support
+- Spanish Support
+- Added SLE In-game Category
+- Added RO-Patch
+- Textures changed to .dds instead of .png
+- Renamed mod files
+
+Beta v0.1:(Released 1/05/21)
+- Added Starship Orbital Launch Pad
+- Added fueling to OLP
+
+===============================================================
+
+Known Issues:
+- Languages missing for translation
 
 
-SLE Roadmap
+Starship Launch Expansion Roadmap
 ================================================================
-BETAS
+Stuff planned to be added in a future:
+- Cryo Shell Tanks (GSE) for KK
+- Added Starbase Sign for KK
+- Full Revamp of Orbital Launch Pad
+- Add Orbital Launch Clamps
+- Add Launch Tower Catch Arms
+- Revamp Launch Tower when finished
 
-Beta v0.21
-- Docking port for Test Stand
-- Bugs Fixed
 
-Beta v0.3
-- Starship Integration Tower (Planned)
-- Orbital Launch Pad Revamp
-- OLP Launch Clamps (Planned)
-
-FINAL VERSIONS
-
-Starship Launch Expansion V1.0:
-- Starship Orbital Launch Pad (Revamping)
-- Starship Test Stand (Completed)
-- Starship Umbilical Tower (Planned)
-- OLP Launch Clamps (Planned)
-
-Starship Launch Expansion V2.0:
-- Tower Catch Arms (Planned)
-- Tower Crane (Planned)
-- MoonShip Legs (Planned)

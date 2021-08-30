@@ -1,6 +1,20 @@
 Starship Launch Expansion Changelog
 ================================================================
-Beta v0.3
+Beta v0.4: (30/08/21)
+- Revamped OLIT Top
+- Revamped OLIT Core
+- Revamped OLIT Base
+- Added GSE Tank
+- Added Stabase Sign
+- Added KK Config for GSE Tank
+- Added Resources patch
+- Added tags for parts
+- Balanced Pads Max Temperature
+- Updated SLE In-game Category
+- Updated Localization files
+- Updated to KSP 1.12.2
+
+Beta v0.3 (Released 22/07/21)
 - Added Launch Tower Base
 - Added Launch Tower Segments
 - Added Launch Tower Rooftop
@@ -37,11 +51,10 @@ Known Issues:
 Starship Launch Expansion Roadmap
 ================================================================
 Stuff planned to be added in a future:
-- Cryo Shell Tanks (GSE) for KK
-- Added Starbase Sign for KK
 - Full Revamp of Orbital Launch Pad
 - Add Orbital Launch Clamps
 - Add Launch Tower Catch Arms
-- Revamp Launch Tower when finished
+- Revamp Launch Tower (Revamp Tower Base and Top, add Tower Rails)
+- Add Launch Tower Fueling Arm
 
 

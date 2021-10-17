@@ -1,5 +1,10 @@
 Starship Launch Expansion Changelog
 ================================================================
+Beta v0.41: (17/10/21)
+- RO-Patch moved to Extras
+- Fixed Bug of GSE Tank not having fuel
+- OLP and TS Electric supply set to always active
+
 Beta v0.4: (30/08/21)
 - Revamped OLIT Top
 - Revamped OLIT Core

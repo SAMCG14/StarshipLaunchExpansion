@@ -1,14 +1,14 @@
-# DEPENDENCIES:
-Mods required for Starship Launch Expansion to work correctly:
-- [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-112x-module-manager-421-august-1st-2021-locked-inside-edition/)
-- [B9PartSwitch](https://forum.kerbalspaceprogram.com/index.php?/topic/140541-1112-b9partswitch-v2180-march-17/)
-
-# Starship Launch Expansion Beta v0.4
+# Starship Launch Expansion Beta v0.5
 KSP | Starship Launch Expansion | Mod Version: KSP 1.12.9 - KSP 1.8.1. 
 Thanks for trying out this mod! This mod consists mainly in real-life SpaceX pads for Starship. Note: they are not ment to be 1:1. 
 This is a public beta of Starship Launch Expansion Mod so be aware that the mod may have bugs when you install it.
 
 I'm working on this mod mainly by my own, so please be patient with updates, any suggestions or bug reports you can text me through discord: @SAMCG14#6374 or join my discord server: https://discord.gg/AQBSvm9mw9
+
+# DEPENDENCIES:
+Mods required for Starship Launch Expansion to work correctly:
+- [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-18x-112x-module-manager-421-august-1st-2021-locked-inside-edition/)
+- [B9PartSwitch](https://forum.kerbalspaceprogram.com/index.php?/topic/140541-1112-b9partswitch-v2180-march-17/)
 
 # RECOMMENDED MODS:
 Recommended mods to install with Starship Launch Expansion:
@@ -23,3 +23,14 @@ Compatible with:
 - [Realism Overhaul](https://forum.kerbalspaceprogram.com/index.php?/topic/155700-1101-realism-overhaul-v1430-27-jul-2021/)
 - [Cryo Tanks](https://forum.kerbalspaceprogram.com/index.php?/topic/195042-112x-cryotanks-liquid-hydrogen-storage-and-management-july-23-2021/)
 - [Configurable Containers](https://forum.kerbalspaceprogram.com/index.php?/topic/150104-19-110-configurable-containers/)
+
+# How to use Mechazilla?
+Catching a booster mid-flight could be an immensely complex and high-risk task to do, luckily SofieBrink developed and coded a plug-in to improve the capabilities of Mechazilla to move, I’ll give you some tips to use it correctly without waking up Kraken:
+- To perfectly align the arms with Starship, rotate the arms 8°.
+- Only use max speed while trying to catch the booster or moving the arms lonely. With a booster/ship caught, I’ll recommend you use these movement speeds:
+	- Vertical movement: 0.5m/s.  
+	- Arms swing movement: 1°/s
+	- Pushers movement: 0.2m/s
+- To stabilize the vessel at the top do not ever close the stabilizers completely, instead use these pushers open limit values:
+	- Starship (Ship): 0.7m
+	- Super Heavy (Booster): 0.2m

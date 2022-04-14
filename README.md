@@ -31,7 +31,6 @@ Catching a booster mid-flight could be an immensely complex and high-risk task t
 	- Vertical movement: 0.5m/s.  
 	- Arms swing movement: 1°/s
 	- Pushers movement: 0.2m/s
-- To use the stabilizers, make sure you have your vessel at the center, that means that the pushers target extension must be at 0m. Very useful to swing the arms with a vessel.
 - To stabilize the vessel at the top do not ever close the stabilizers completely, instead use these pushers open limit values:
 	- Starship (Ship): 0.7m
 	- Super Heavy (Booster): 0.2m

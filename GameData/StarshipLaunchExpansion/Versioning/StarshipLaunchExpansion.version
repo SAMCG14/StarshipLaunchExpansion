@@ -1,0 +1,30 @@
+{
+	"NAME":"StarshipLaunchExpansion",
+	"URL":"https://raw.githubusercontent.com/SAMCG14/StarshipLaunchExpansion/Dev/GameData/StarshipLaunchExpansion/Versioning/SLE.version",
+	"DOWNLOAD":"https://forum.kerbalspaceprogram.com/index.php?/topic/203952-1122-starship-launch-expansion/",
+	"VERSION":
+	{
+		"MAJOR": 0,
+		"MINOR": 5,
+		"PATCH": 0,
+		"BUILD": 0
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR": 1,
+		"MINOR": 12,
+		"PATCH": 3
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR": 1,
+		"MINOR": 8,
+		"PATCH": 1
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR": 1,
+		"MINOR": 12,
+		"PATCH": 99
+	}
+}

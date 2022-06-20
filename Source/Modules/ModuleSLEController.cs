@@ -84,6 +84,9 @@ namespace StarshipLaunchExpansion.Modules
         [KSPField]
         public bool OpenCloseExternal = false;
 
+        [KSPField]
+        public bool ReverseOpenLimit = false;
+
         //Ingame UI stuffz
 
         [KSPField(guiActive = true, guiActiveEditor = false, guiFormat = "F2", guiName = "ExtendedCurrentName", guiUnits = "%")]
@@ -178,6 +181,10 @@ namespace StarshipLaunchExpansion.Modules
                     {
                         Debug.LogError($"[{MODULENAME}] Error, Cannot find UI Field");
                     }
+                    if (ReverseOpenLimit)
+                    {
+                        OpenClose = false;
+                    }
                     CurrentOpenClose = !OpenClose;
                 }
                 else if (!OpenClose)
@@ -199,7 +206,7 @@ namespace StarshipLaunchExpansion.Modules
                     {
                         Debug.LogError($"[{MODULENAME}] Error, Cannot find UI Field");
                     }
-                    if (CurrentOpenAngle >= OpenCloseRange.x)
+                    if (CurrentOpenAngle >= OpenCloseRange.x && !ReverseOpenLimit)
                     {
                         OpenClose = true;
                     }
@@ -220,16 +227,30 @@ namespace StarshipLaunchExpansion.Modules
         {
             if (OpenClose != CurrentOpenClose || ExtensionLimit != CurrentExtensionLimit || OpenCloseLimit != CurrentOpenCloseLimit)
             {
-                if (!OpenClose)
+                if (!OpenClose && ReverseOpenLimit == false)
                 {
 
                     Anim1.ExtensionLimit = Math.Max(0, Math.Min(ExtensionLimit + MaxExtension / 2, MaxExtension));
                     Anim2.ExtensionLimit = Math.Max(0, Math.Min(MaxExtension - (ExtensionLimit + MaxExtension / 2), MaxExtension));
                 }
-                else
+                else if (OpenClose && ReverseOpenLimit == false)
                 {
                     Anim1.ExtensionLimit = Math.Max(0, Math.Min(ExtensionLimit + MaxExtension / 2 - OpenCloseLimit /2, MaxExtension - OpenCloseLimit));
                     Anim2.ExtensionLimit = Math.Max(0, Math.Min(MaxExtension - (ExtensionLimit + MaxExtension / 2 + OpenCloseLimit / 2), MaxExtension - OpenCloseLimit));
+                }
+                else if (!OpenClose && ReverseOpenLimit)
+                {
+                    Anim1.ExtensionLimit = Math.Max(0, Math.Min(ExtensionLimit + MaxExtension / 2 - OpenCloseLimit / 2, MaxExtension - OpenCloseLimit));
+                    Anim2.ExtensionLimit = Math.Max(0, Math.Min(MaxExtension - (ExtensionLimit + MaxExtension / 2 + OpenCloseLimit / 2), MaxExtension - OpenCloseLimit));
+                    //Anim1.ExtensionLimit = Math.Max(0, Math.Min(ExtensionLimit + MaxExtension / 2 - OpenCloseLimit / 2, MaxExtension - OpenCloseLimit));
+                    //Anim2.ExtensionLimit = Math.Max(0, Math.Min(MaxExtension - (ExtensionLimit + MaxExtension / 2 + OpenCloseLimit / 2), MaxExtension - OpenCloseLimit));
+                }
+                else if (OpenClose && ReverseOpenLimit)
+                {
+                    Anim1.ExtensionLimit = Math.Max(0, Math.Min(ExtensionLimit + MaxExtension / 2 - OpenCloseRange.y / 2, MaxExtension - OpenCloseRange.y));
+                    Anim2.ExtensionLimit = Math.Max(0, Math.Min(MaxExtension - (ExtensionLimit + MaxExtension / 2 + OpenCloseRange.y / 2), MaxExtension - OpenCloseRange.y));
+                    //Anim1.ExtensionLimit = Math.Max(0, Math.Min(ExtensionLimit + MaxExtension / 2 - OpenCloseLimit / 2, MaxExtension - OpenCloseLimit));
+                    //Anim2.ExtensionLimit = Math.Max(0, Math.Min(MaxExtension - (ExtensionLimit + MaxExtension / 2 + OpenCloseLimit / 2), MaxExtension - OpenCloseLimit));
                 }
                 CurrentExtensionLimit = ExtensionLimit;
                 CurrentOpenClose = OpenClose;
@@ -250,7 +271,7 @@ namespace StarshipLaunchExpansion.Modules
 
         private void UpdateGUI() 
         {
-            if (OpenClose)
+            if (OpenClose && !ReverseOpenLimit)
             {
                 if (ConvertUnits)
                 {
@@ -283,7 +304,7 @@ namespace StarshipLaunchExpansion.Modules
                 }
 
             }
-            else
+            else if (!OpenClose && !ReverseOpenLimit)
             {
                 if (ConvertUnits)
                 {
@@ -309,6 +330,72 @@ namespace StarshipLaunchExpansion.Modules
                 {
                     //Aint got no time to code this lmao
                 }
+            }
+            else if (OpenClose && ReverseOpenLimit)
+            {
+                if (ConvertUnits)
+                {
+                    if (Fields.TryGetFieldUIControl("ExtensionLimit", out UI_FloatRange ExtensionLimitVar))
+                    {
+                        ExtensionLimitVar.maxValue = MaxExtension / 2 - OpenCloseRange.y / 2;
+                        ExtensionLimitVar.minValue = -(MaxExtension / 2 - OpenCloseRange.y / 2);
+                        if (ExtensionLimit > ExtensionLimitVar.maxValue)
+                        {
+                            ExtensionLimit = ExtensionLimitVar.maxValue;
+                        }
+                        else if (ExtensionLimit < ExtensionLimitVar.minValue)
+                        {
+                            ExtensionLimit = ExtensionLimitVar.minValue;
+                        }
+                        if (ExtensionLimitVar.minValue == ExtensionLimitVar.maxValue)
+                        {
+                            ExtensionLimitVar.minValue = ExtensionLimitVar.minValue - 0.1f;
+                            ExtensionLimitVar.maxValue = ExtensionLimitVar.maxValue + 0.1f;
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogError($"[{MODULENAME}] Error, Cannot find UI Field");
+                    }
+                }
+                else
+                {
+                    //Aint got no time to code this lmao
+                }
+
+            }
+            else if (!OpenClose && ReverseOpenLimit)
+            {
+                if (ConvertUnits)
+                {
+                    if (Fields.TryGetFieldUIControl("ExtensionLimit", out UI_FloatRange ExtensionLimitVar))
+                    {
+                        ExtensionLimitVar.maxValue = MaxExtension / 2 - OpenCloseLimit / 2;
+                        ExtensionLimitVar.minValue = -(MaxExtension / 2 - OpenCloseLimit / 2);
+                        if (ExtensionLimit > ExtensionLimitVar.maxValue)
+                        {
+                            ExtensionLimit = ExtensionLimitVar.maxValue;
+                        }
+                        else if (ExtensionLimit < ExtensionLimitVar.minValue)
+                        {
+                            ExtensionLimit = ExtensionLimitVar.minValue;
+                        }
+                        if (ExtensionLimitVar.minValue == ExtensionLimitVar.maxValue)
+                        {
+                            ExtensionLimitVar.minValue = ExtensionLimitVar.minValue - 0.1f;
+                            ExtensionLimitVar.maxValue = ExtensionLimitVar.maxValue + 0.1f;
+                        }
+                    }
+                    else
+                    {
+                        Debug.LogError($"[{MODULENAME}] Error, Cannot find UI Field");
+                    }
+                }
+                else
+                {
+                    //Aint got no time to code this lmao
+                }
+
             }
 
             if (OpenClose)

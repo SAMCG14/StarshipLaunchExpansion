@@ -31,6 +31,11 @@ Catching a booster mid-flight could be an immensely complex and high-risk task t
 	- Vertical movement: 0.5m/s.  
 	- Arms swing movement: 1°/s
 	- Pushers movement: 0.2m/s
-- To stabilize the vessel at the top do not ever close the stabilizers completely, instead use these pushers open limit values:
+- To stabilize the vessel at the top do not ever close the pushers completely, instead use these pushers open limit values:
 	- Starship (Ship): 0.7m
 	- Super Heavy (Booster): 0.2m
+- Using the stabilizers could be a bit buggy, that’s why there is a target extension to adjust it to your vessel, there are 2 colliders options to use:
+	- Single Axis
+		This will stabilize your vessel in a single horizontal axis, it works fine just do not move the pushers insanely fast, this is the lesser summoner of the Kraken.
+	- Double Axis
+		This will stabilize your vessel in both horizontal axes so you can move the pushers more freely with the vessel always completely vertical, however, it is a delicious plate for the Kraken so be aware using it.

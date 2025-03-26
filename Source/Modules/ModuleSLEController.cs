@@ -52,6 +52,9 @@ namespace StarshipLaunchExpansion.Modules
         public bool ShowGUI = true;
 
         [KSPField]
+        public bool ShowExtensionSlider = true;
+
+        [KSPField]
         public string AnimStopName = "AnimStopName";
 
         [KSPField]
@@ -465,6 +468,12 @@ namespace StarshipLaunchExpansion.Modules
                 Actions["Action1"].activeEditor = false;
                 Events["Button2"].guiActiveEditor = false;
                 Actions["Action2"].activeEditor = false;
+            }
+            else if (!ShowExtensionSlider)
+            {
+                Fields["ExtensionLimit"].guiActive = false;
+                Fields["ExtendedCurrent"].guiActive = false;
+                ExtensionLimit = 0;
             }
             Actions["Action1"].guiName = AnimStopName;
             Events["Button1"].guiName = AnimStopName;

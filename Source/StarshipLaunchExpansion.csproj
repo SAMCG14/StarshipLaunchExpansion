@@ -51,19 +51,23 @@
     <Reference Include="UnityEngine.UIModule">
       <HintPath>$(ReferencePath)\KSP_x64_Data\Managed\UnityEngine.UIModule.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>$(ReferencePath)\KSP_x64_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Modules\ModuleSLEController.cs" />
     <Compile Include="Modules\ModuleSLEAnimate.cs" />
     <Compile Include="Modules\ModuleSLESequentialAnimate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Modules\ModuleSLEKinematics" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>
-	    xcopy /Y "$(TargetPath)" "$(ReferencePath)\GameData\StarshipLaunchExpansion\Plugin\"
-	    xcopy /Y "$(TargetPath)" "$(SolutionDir)..\GameData\$(TargetName)\Plugin"
+      xcopy /Y "$(TargetPath)" "$(ReferencePath)\GameData\StarshipLaunchExpansion\Plugin\"
+      xcopy /Y "$(TargetPath)" "$(SolutionDir)..\GameData\$(TargetName)\Plugin"
     </PostBuildEvent>
   </PropertyGroup>
 </Project>
